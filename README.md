@@ -17,6 +17,7 @@ This repository is organized into small, manageable modules:
 1.  **[Hello_world](file:///Users/bimleshkumar/projects/learn-go/Hello_world/main.go)**: Your first step into the Go ecosystem.
 2. **[variables](file:///Users/bimleshkumar/projects/learn-go/variables_constants/main.go)**: Detailed examples of variables, constants, and type aliases.
 3. **[loops](file:///Users/bimleshkumar/projects/learn-go/loops/main.go)**: A comprehensive guide to Go's single looping construct: `for`.
+4. **[control_flow](file:///Users/bimleshkumar/projects/learn-go/control_flow/main.go)**: Mastering `if`, `else`, and Go's powerful `switch` statements.
 
 ---
 

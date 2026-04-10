@@ -68,19 +68,43 @@ func main() {
 	fmt.Println()
 
 	// 6. LABELED LOOPS (Advanced)
-	// Useful for breaking out of nested loops.
-	fmt.Println("\n6. Labeled Loops (Breaking out of nested loop):")
-OuterLoop:
+	// Labels allow you to control outer loops from within inner loops.
+	// They are most useful in nested loops to avoid using 'flag' variables.
+
+	fmt.Println("\n6a. Labeled Break (Exiting an outer loop):")
+MyLabel:
 	for i := 1; i <= 3; i++ {
 		for j := 1; j <= 3; j++ {
 			if i == 2 && j == 2 {
-				fmt.Println("Breaking OuterLoop at i=2, j=2")
-				break OuterLoop
+				fmt.Println("   Exiting 'MyLabel' entirely at i=2, j=2")
+				break MyLabel // Stops both loops
 			}
 			fmt.Printf("(%d,%d) ", i, j)
 		}
 		fmt.Println()
 	}
+
+	fmt.Println("\n6b. Labeled Continue (Skipping to next iteration of outer loop):")
+Outer:
+	for i := 1; i <= 3; i++ {
+		fmt.Printf("Outer %d: ", i)
+		for j := 1; j <= 3; j++ {
+			if i == 2 {
+				fmt.Print("Skipping rest of Outer 2... ")
+				continue Outer // Jumps back to the 'for i' line
+			}
+			fmt.Printf("%d ", j)
+		}
+		fmt.Println()
+	}
+
+	/* 
+	PRO TIP ON LABELS:
+	- Labels are always follow by a colon (e.g., LabelName:)
+	- They are typically placed immediately before a 'for', 'switch', or 'select' statement.
+	- By convention, labels use CamelCase (MyLabel) or UPPER_CASE (OUTER), but never lowercase.
+	- They help avoid complex 'boolean flag' logic like 'if shouldBreak { break }'.
+	*/
 
 	/*
 	SUMMARY:
