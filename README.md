@@ -15,7 +15,8 @@ Welcome to the **Learn Go** repository! This project is designed to be a **begin
 ### 2. Project Structure (Current Modules)
 This repository is organized into small, manageable modules:
 1.  **[Hello_world](file:///Users/bimleshkumar/projects/learn-go/Hello_world/main.go)**: Your first step into the Go ecosystem.
-2.  **[variables](file:///Users/bimleshkumar/projects/learn-go/variables/main.go)**: Detailed examples of variables, constants, type aliases, and Go's unique syntax.
+2. **[variables](file:///Users/bimleshkumar/projects/learn-go/variables_constants/main.go)**: Detailed examples of variables, constants, and type aliases.
+3. **[loops](file:///Users/bimleshkumar/projects/learn-go/loops/main.go)**: A comprehensive guide to Go's single looping construct: `for`.
 
 ---
 
@@ -29,8 +30,7 @@ This repository is organized into small, manageable modules:
 
 ## 🚀 Upcoming Content (Planned)
 We are constantly expanding! Here is what is coming next:
--   🔹 **Control Flow**: If/Else, Switch, and the powerful `for` loop.
-    -   🔹 **Functions & Methods**: Mastering reusability.
+-   🔹 **Functions & Methods**: Mastering reusability.
     -   🔹 **Data Structures**: Arrays, Slices, and Maps.
     -   🔹 **Structs & Interfaces**: The heart of Go's object-oriented style.
     -   🔹 **Concurrency**: Goroutines and Channels (Go's superpower!).
