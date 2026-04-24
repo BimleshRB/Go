@@ -18,6 +18,9 @@ This repository is organized into small, manageable modules:
 2. **[variables](file:///Users/bimleshkumar/projects/learn-go/variables_constants/main.go)**: Detailed examples of variables, constants, and type aliases.
 3. **[loops](file:///Users/bimleshkumar/projects/learn-go/loops/main.go)**: A comprehensive guide to Go's single looping construct: `for`.
 4. **[control_flow](file:///Users/bimleshkumar/projects/learn-go/control_flow/main.go)**: Mastering `if`, `else`, and Go's powerful `switch` statements.
+5. **[functions](file:///Users/bimleshkumar/projects/learn-go/functions/main.go)**: Learning parameters, multiple returns, and closures.
+6. **[data_structures](file:///Users/bimleshkumar/projects/learn-go/data_structures/main.go)**: Understanding Arrays, Slices, and Maps.
+7. **[structs_interfaces](file:///Users/bimleshkumar/projects/learn-go/structs_interfaces/main.go)**: Mastering custom types, methods, and interfaces.
 
 ---
 
@@ -31,10 +34,7 @@ This repository is organized into small, manageable modules:
 
 ## 🚀 Upcoming Content (Planned)
 We are constantly expanding! Here is what is coming next:
--   🔹 **Functions & Methods**: Mastering reusability.
-    -   🔹 **Data Structures**: Arrays, Slices, and Maps.
-    -   🔹 **Structs & Interfaces**: The heart of Go's object-oriented style.
-    -   🔹 **Concurrency**: Goroutines and Channels (Go's superpower!).
+-   🔹 **Concurrency**: Goroutines and Channels (Go's superpower!).
     -   🔹 **Web Development**: Building a REST API from scratch.
     -   🔹 **CLI Project**: Making a real-world command-line tool.
 
