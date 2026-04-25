@@ -21,6 +21,7 @@ This repository is organized into small, manageable modules:
 5. **[functions](file:///Users/bimleshkumar/projects/learn-go/functions/main.go)**: Learning parameters, multiple returns, and closures.
 6. **[data_structures](file:///Users/bimleshkumar/projects/learn-go/data_structures/main.go)**: Understanding Arrays, Slices, and Maps.
 7. **[structs_interfaces](file:///Users/bimleshkumar/projects/learn-go/structs_interfaces/main.go)**: Mastering custom types, methods, and interfaces.
+8. **[concurrency](file:///Users/bimleshkumar/projects/learn-go/concurrency/main.go)**: Goroutines, Channels, and WaitGroups.
 
 ---
 
@@ -34,8 +35,7 @@ This repository is organized into small, manageable modules:
 
 ## 🚀 Upcoming Content (Planned)
 We are constantly expanding! Here is what is coming next:
--   🔹 **Concurrency**: Goroutines and Channels (Go's superpower!).
-    -   🔹 **Web Development**: Building a REST API from scratch.
+-   🔹 **Web Development**: Building a REST API from scratch.
     -   🔹 **CLI Project**: Making a real-world command-line tool.
 
 ---
