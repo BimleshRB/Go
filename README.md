@@ -22,6 +22,8 @@ This repository is organized into small, manageable modules:
 6. **[data_structures](file:///Users/bimleshkumar/projects/learn-go/data_structures/main.go)**: Understanding Arrays, Slices, and Maps.
 7. **[structs_interfaces](file:///Users/bimleshkumar/projects/learn-go/structs_interfaces/main.go)**: Mastering custom types, methods, and interfaces.
 8. **[concurrency](file:///Users/bimleshkumar/projects/learn-go/concurrency/main.go)**: Goroutines, Channels, and WaitGroups.
+9. **[web_api](file:///Users/bimleshkumar/projects/learn-go/web_api/main.go)**: Building a REST API with `net/http` and JSON.
+10. **[cli_project](file:///Users/bimleshkumar/projects/learn-go/cli_project/main.go)**: Building a persistent Task Manager CLI tool.
 
 ---
 
@@ -34,9 +36,7 @@ This repository is organized into small, manageable modules:
 ---
 
 ## 🚀 Upcoming Content (Planned)
-We are constantly expanding! Here is what is coming next:
--   🔹 **Web Development**: Building a REST API from scratch.
-    -   🔹 **CLI Project**: Making a real-world command-line tool.
+-   🎉 **Series Complete!**: You've mastered the fundamentals of Go.
 
 ---
 
@@ -49,3 +49,8 @@ go run variables/main.go
 ```
 
 Happy coding! 🚀
+
+---
+
+> [!TIP]
+> **Congratulations!** If you've made it through all 10 modules, you now have a solid foundation in Go. Why not try expanding the `cli_project` or `web_api` with your own features?
